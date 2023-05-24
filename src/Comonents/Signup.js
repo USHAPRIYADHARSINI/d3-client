@@ -68,7 +68,7 @@ export default function FormDialog() {
     if (newUser.name && newUser.email && newUser.password) {
       console.log(newUser.name, newUser.email, newUser.password);
       console.log(LOCAL_URL);
-      await fetch(`http://localhost:5000/users/signup`, {
+      await fetch(`https://dashboard-app-u41p.onrender.com/users/signup`, {
         method: "POST",
         body: JSON.stringify(newUser),
         headers: {

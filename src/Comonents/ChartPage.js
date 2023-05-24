@@ -13,7 +13,7 @@ function ChartPage({ filter, val }) {
     console.log(`getting chart data, ${get}`);
     const token = localStorage.getItem("Authorisation");
     if (get) {
-      fetch(`http://localhost:5000/dashboard/get/${filter}/${get}`, 
+      fetch(`https://dashboard-app-u41p.onrender.com/dashboard/get/${filter}/${get}`, 
       // {
       //   headers: new Headers({
       //     Authorisation: token,
@@ -69,7 +69,7 @@ function ChartPage({ filter, val }) {
   useEffect(() => {
     console.log("getting data");
     const token = localStorage.getItem("Authorisation");
-    fetch(`http://localhost:5000/dashboard/${filter}`, 
+    fetch(`https://dashboard-app-u41p.onrender.com/dashboard/${filter}`, 
     // {
     //   headers: new Headers({
     //     Authorisation: token,

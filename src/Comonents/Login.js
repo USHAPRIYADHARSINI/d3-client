@@ -46,7 +46,7 @@ export default function FormDialog({setToken}) {
     if(newUser){
       console.log(newUser.name, newUser.email, newUser.password, newUser.pp)
       console.log(LOCAL_URL)
-      await fetch(`${LOCAL_URL}/users/login`, {
+      await fetch(`https://dashboard-app-u41p.onrender.com/users/login`, {
         method: "POST",
         body: JSON.stringify(newUser),
         headers: {
