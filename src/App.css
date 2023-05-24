@@ -12,6 +12,30 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.dialog{
+  padding: 1rem;
+}
+.homepage{
+  background-color: rgb(245, 245, 210);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.homepage > img{
+  width: 40vw;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+}
+.log{
+  display: flex;
+  flex-direction: row;
+}
+.bg{
+  background-color: rgba(75, 74, 74, 0.322);
+}
 
 .App-header {
   background-color: #282c34;
