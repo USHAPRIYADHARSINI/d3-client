@@ -80,6 +80,9 @@ export default function FormDialog({setToken}) {
             gutterBottom
           />
         <DialogTitle>Login</DialogTitle>
+        <p>Email: admin@gmail.com</p>
+        <br/>
+        <p>Password: Admin@123</p>
         <div className='dialog'>
         <form noValidate autoComplete='off' onSubmit={handleLogin} >
           <TextField

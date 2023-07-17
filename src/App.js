@@ -57,6 +57,7 @@ function App() {
             }
           />
           <div style={{color:"dodgerblue"}}>Login or Signup to view the dashboard</div>
+          <p>Login with demo credentials provided in the login tab</p>
           <div className="log">
             <Login setToken={setToken} />
             <Signup />
