@@ -80,10 +80,10 @@ export default function FormDialog({setToken}) {
             gutterBottom
           />
         <DialogTitle>Login</DialogTitle>
-        <p>Email: admin@gmail.com</p>
-        <br/>
-        <p>Password: Admin@123</p>
         <div className='dialog'>
+        <h5>Demo credentials</h5>
+        <p className='cred'>Email: admin@gmail.com</p>
+        <p className='cred'>Password: Admin@123</p>
         <form noValidate autoComplete='off' onSubmit={handleLogin} >
           <TextField
             onChange={(e)=>setEmail(e.target.value)}
